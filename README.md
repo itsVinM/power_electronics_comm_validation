@@ -23,6 +23,8 @@ cmake --build build
 ```bash
 tree -L 3 -I 'build' 
 ```
+
+```bash
 .
 ├── CMakeLists.txt
 ├── CMakePresets.json
@@ -39,5 +41,4 @@ tree -L 3 -I 'build'
 │   ├── gnu-tools-for-stm32.cmake
 │   └── vscode_generated.cmake
 └── stm32f401xe_flash.ld
-
-
+```
