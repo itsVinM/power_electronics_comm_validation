@@ -1,0 +1,6 @@
+mach create $name?="nucleo_f401re"
+machine LoadPlatformDescription @platforms/boards/st_nucleo_f4.repl
+
+machine StartGdbServer 3333
+showAnalyzer uart1
+start
