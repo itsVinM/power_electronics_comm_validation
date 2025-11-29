@@ -9,20 +9,20 @@ This uses the `rdimon.specs` linker, which includes a semi-hosting interface opt
 ```bash
 cmake -B build
 cmake --build build
-'''
+```
 
 
 ### To build for real microcontroller - disabling Renode
-'''bash
+```bash
 cmake -B buid -DRENODE_SIMULATION=OFF
 cmake --build build
-'''
+```
 # Generates: power_electronics_comm_validation.elf (using nosys.specs for hardware)
 
 ### Repo structure
-'''bash
+```bash
 tree -L 3 -I 'build' 
-'''
+```
 .
 ├── CMakeLists.txt
 ├── CMakePresets.json
